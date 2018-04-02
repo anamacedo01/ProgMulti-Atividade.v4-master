@@ -1,0 +1,8 @@
+{
+  "name": "Service_Desk",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

@@ -1,0 +1,34 @@
+<!-- 816114287 Ana Paula Macedo
+  Generated template for the FecharChamadoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Fechar Chamado</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+    <ion-list>
+        <ion-item>
+          <ion-label>Chamados para serem fechados:</ion-label>
+          <ion-select [(ngModel)]="Chamados">
+            <ion-option value="NP">Novo Projeto</ion-option>
+            <ion-option value="MSV">Manutenção do Sistema de Vendas</ion-option>
+            <ion-option value="MSE">Manutenção do Sistema ERP</ion-option>
+            <ion-option value="Serve">Servidores</ion-option>
+            <ion-option value="Redes">Redes</ion-option>
+            <ion-option value="Tel">Telefonia</ion-option>
+            <ion-option value="Desktop">Desktop</ion-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+
+    <button ion-button color="secondary">Listar chamados abertos:</button>
+
+</ion-content>
